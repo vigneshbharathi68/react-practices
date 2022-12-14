@@ -23,7 +23,7 @@ import { PageNotFound } from "./pages/PageNotFound/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <Router basename="/react-practices">
+      <Router>
         <Navigation />
         <Routes>
             {/* Main Navigation routes */}
