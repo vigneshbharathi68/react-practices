@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+  background: white;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
+
+h1.not-found{
+  font-size: 6em;
+  font-family: 'montserrat', sans-serif;
+  color: white;
+  background: url("https://colorlib.com/etc/404/colorlib-error-404-10/img/bg.jpg");
+  background-size:cover;
+  background-position: center;
+  margin-bottom: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1.subtext {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.layout p {
+  width: 80%;
+  text-align: center;
+}
+
+.layout button {
+  border-radius: 9999px;
+  background-color: #1E40AF;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: semibold;
+  padding: .5rem 1.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+@media only screen and (min-width: 768px) {
+    h1.not-found {
+        font-size: 200px;
+    }
+
+    h1.subtext {
+        font-size: 2rem;
+    }
+    .layout p {
+        width: 33%;        
+    }
+    .layout button {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        padding: 1rem 2rem;
+
+    }
+}

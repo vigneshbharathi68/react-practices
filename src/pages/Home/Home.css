@@ -1,0 +1,10 @@
+section .main-title {
+    text-align: center;
+}
+
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2.5rem;
+  }

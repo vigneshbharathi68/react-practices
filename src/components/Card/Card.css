@@ -1,0 +1,22 @@
+
+  .card-container {
+    border: 1.5px solid black;
+    flex: 1 1 20rem;
+    padding: 1rem;
+    box-shadow: var(--shadow-size) var(--shadow-size);
+    cursor: pointer;
+    transition: box-shadow .2s, transform .2s;
+  }
+
+  .card-container:hover {
+    box-shadow: var(--shadow-at-hover) var(--shadow-at-hover);
+    transform: translateX(var(--shadow-at-hover)) translateY(var(--shadow-at-hover));
+  }
+
+  .card.title {
+    font-size: 1.5rem;
+    color: #5BB318;
+  }
+  .card.description {
+    color: #3b3b3b;
+  }
