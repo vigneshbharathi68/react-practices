@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 
 export const Navigation = () => {
@@ -32,13 +33,13 @@ export const Navigation = () => {
         </svg>
         <ul>
           <li>
-            <a>Home</a>
+            <Link style={{textDecoration: 'none'}} to=''>Home</Link>
           </li>
           <li>
-            <a>Topics</a>
+            <Link style={{textDecoration: 'none'}} to='topics'>Topics</Link>
           </li>
           <li>
-            <a>Cheatsheets</a>
+            <Link style={{textDecoration: 'none'}} to='cheatsheets'>Cheatsheets</Link>
           </li>
         </ul>
       </nav>

@@ -4,6 +4,9 @@
   --light-color: #EF7B45;
   --highlight-color: #D84727;
   --body-text-color: #17353B;
+
+  --shadow-size: 10px;
+  --shadow-at-hover: 5px;
 } 
 
 body {
