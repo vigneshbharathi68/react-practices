@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Navigation } from "./components/NavigationBar/Navigation";
-// import Components
 
+// import Components
+import { Navigation } from "./components/NavigationBar/Navigation";
 import { ReactHooks } from "./pages/ReactHooks/ReactHooks";
 import { Home } from "./pages/Home/Home";
 
@@ -23,7 +23,7 @@ import { PageNotFound } from "./pages/PageNotFound/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/react-practices'>
         <Navigation />
         <Routes>
             {/* Main Navigation routes */}
