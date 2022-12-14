@@ -1,6 +1,7 @@
 .logo-container {
+    cursor: pointer;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: .5em;
 }
 .logo-container h2 {
@@ -12,13 +13,13 @@
     color: #81ffc4;
 }
 .nav-logo {
-    width: 3.5em;
-    height: 3.5em;
+    width: 2.5em;
+    height: 2.5em;
     object-fit: contain;
 }
 header {
     display: flex;
-    padding: 1em .5em;
+    padding: .5em 1em;
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
@@ -49,7 +50,7 @@ nav ul {
 
 nav ul a {
     font-size: 1.2em;
-    padding: .75em 2em;
+    padding: .75em 1.5em;
     display: block;
     width: 100%;
     cursor: pointer;
@@ -73,6 +74,7 @@ nav .close {
 
 @media only screen and (min-width: 768px) {
     header {
+        padding-right: 5em;
         justify-content: space-between;
     }
     nav {
