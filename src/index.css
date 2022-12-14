@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #042A2B;
+  --secondary-color: #1C809B;
+  --light-color: #EF7B45;
+  --highlight-color: #D84727;
+  --body-text-color: #17353B;
+} 
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
