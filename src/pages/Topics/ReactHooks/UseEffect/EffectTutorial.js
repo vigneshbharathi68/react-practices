@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 
 export const EffectTutorial = () => {
     const [ data, setData ] = useState("")

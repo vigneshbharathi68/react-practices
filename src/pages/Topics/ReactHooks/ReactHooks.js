@@ -1,5 +1,6 @@
 import React from "react";
-import { Card } from "../../components/Card/Card";
+import { BackBtn } from "components/BackButton/BackBtn";
+import { ListCard } from "components/ListCard/ListCard";
 
 export const ReactHooks = () => {
   const topics = [
@@ -47,19 +48,8 @@ export const ReactHooks = () => {
   ];
   return (
     <>
-      <h1 className="main-title">React Hooks</h1>
-      <div className="card-layout">
-        {topics.map((el, index) => {
-          return (
-            <Card
-              key={index}
-              link={el.link}
-              title={el.title}
-              description={el.description}
-            />
-          );
-        })}
-      </div>
+      <BackBtn />
+      <ListCard title='React Hooks' data={topics}/>
     </>
   );
 };

@@ -7,8 +7,19 @@ export const Topics = () => {
       title: "React Hooks",
       link: "/react-hooks",
       description:
-        "How and what's the use of React Hooks. Practical implementations",
+        "How and what's the use of React Hooks. Practical implementations.",
     },
+    {
+      title: "React Table",
+      link: "/react-table",
+      description: "React Table is a workhorse. It's built to materialize, filter, sort, group, aggregate, paginate and display massive data sets using a very small API surface. "
+    },
+    {
+      title: "React Query",
+      link: "/react-query",
+      description: "React Query is a npm module which deals with promises or async/await. There's no global state to manage, reducers, normalization systems or heavy configurations to understand. Simply pass a function that resolves your data (or throws an error) and the rest is history."
+    },
+
   ];
   return (
     <div className="card-layout">

@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 
 const reducer = (state, action) => {
     switch (action.type) {

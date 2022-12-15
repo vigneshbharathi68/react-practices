@@ -1,5 +1,5 @@
 import React, { useState, createContext } from 'react';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 import Login from './Login';
 import User from './User';
 

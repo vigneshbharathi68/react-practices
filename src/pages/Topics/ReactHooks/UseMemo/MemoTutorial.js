@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState, useMemo } from 'react';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 
 export const MemoTutorial = () => {
     const [data, setData] = useState([])

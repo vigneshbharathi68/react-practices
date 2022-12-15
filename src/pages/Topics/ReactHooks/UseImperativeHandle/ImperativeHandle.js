@@ -1,5 +1,5 @@
 import react, { useRef } from "react";
-import { BackBtn } from "../../../components/BackButton/BackBtn";
+import { BackBtn } from "components/BackButton/BackBtn";
 import Button from "./Button";
 
 export const ImperativeHandle = () => {

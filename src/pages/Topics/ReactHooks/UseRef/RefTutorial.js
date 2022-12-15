@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 
 export const RefTutorial = () => {
     const inputRef = useRef(null)

@@ -1,5 +1,5 @@
 import { useLayoutEffect, useEffect, useRef } from "react";
-import { BackBtn } from "../../../components/BackButton/BackBtn";
+import { BackBtn } from "components/BackButton/BackBtn";
 
 export const LayoutEffectTutorial = () => {
     const inputRef = useRef(null)

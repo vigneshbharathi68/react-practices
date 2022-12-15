@@ -33,7 +33,7 @@ export const Navigation = () => {
         </svg>
         <ul>
           <li>
-            <Link style={{textDecoration: 'none'}} to=''>Home</Link>
+            <Link style={{textDecoration: 'none'}} to=''>Projects</Link>
           </li>
           <li>
             <Link style={{textDecoration: 'none'}} to='topics'>Topics</Link>

@@ -5,7 +5,7 @@ import './BackButton.css';
 
 export const BackBtn = () => {
   return (
-    <Link to='/react-hooks'>
+    <Link to='/topics'>
         <div className='btn'>
             <img src={BackButton} alt="Back button" />Go back
         </div>

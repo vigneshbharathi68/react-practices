@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 
 export const StateTutorial = () => {
     const [counter, setCounter] = useState(0)

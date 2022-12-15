@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { BackBtn } from '../../../components/BackButton/BackBtn';
+import { BackBtn } from 'components/BackButton/BackBtn';
 import Child from './Child'
 
 export const CallBackTutorial = () => {
