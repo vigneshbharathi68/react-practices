@@ -4,6 +4,7 @@ import Tasks from 'components/TaskTracker/Tasks'
 import AddTask from 'components/TaskTracker/AddTask'
 import './TaskTracker.css';
 import { useState } from 'react'
+import noDataToShow from 'assets/images/empty-box.png'
 
 export const TaskTracker = () => {
   let [tasks, setTask] = useState([
@@ -29,13 +30,11 @@ export const TaskTracker = () => {
 
   // Add a New Task
   const onAddTask = (task) => {
-    console.log([...tasks, task])
     setTask([...tasks, task])
   }
 
   // Delete a Task
   const deleteTask = (id) => {
-    console.log('Clicked delete task', id)
     setTask(tasks.filter(el => el.id !== id)) 
   }
 
@@ -46,11 +45,20 @@ export const TaskTracker = () => {
         <AddTask onAdd={ onAddTask }/>
       </aside>
       <section>
-        {tasks.length > 0 ? <Tasks tasks={ tasks } onDelete={ deleteTask }/> : <p>No tasks to show</p> }
+        {tasks.length > 0 
+        ? <Tasks tasks={ tasks } onDelete={ deleteTask }/> 
+        : <div className='no-data-show'>
+            <img src={noDataToShow} alt='No data to show'/>
+            <p style={noDataStyle}>No tasks to show</p>
+          </div> 
+        }
       </section>
-      
     </div>
   );
+}
+
+const noDataStyle = {
+  textAlign: 'center'
 }
 
 // export default TaskTracker;

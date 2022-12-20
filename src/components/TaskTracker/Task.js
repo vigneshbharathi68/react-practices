@@ -1,9 +1,9 @@
 import { FaTimes } from 'react-icons/fa'
 
 function Task({ task, onDelete }) {
-    const { id, text, day } = task
+    const { id, text, day, reminder } = task
     return (
-        <div key={id}>
+        <div className={`${reminder ? 'reminder': ''}`} key={id}>
             <h3>
                 { text }
                 <FaTimes

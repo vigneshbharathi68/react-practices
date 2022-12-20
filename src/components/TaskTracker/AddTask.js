@@ -7,6 +7,7 @@ function AddTask ({ onAdd }) {
 
     const onSubmit = (e) => {
         e.preventDefault();
+        console.log({text, day, reminder})
         onAdd({ text, day, reminder })
         setText('');
         setDay('');
