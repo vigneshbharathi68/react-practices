@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 // Common Components
@@ -33,8 +33,8 @@ import { TaskTracker } from "pages/Projects/TaskTracker/TaskTracker";
 function App() {
   return (
     <div className="App">
-      <Router basename='/react-practices'>
-        <Navigation />
+      <Navigation />
+      <BrowserRouter>
         <Routes>
             {/* Main Navigation routes */}
             <Route path="/" element={<Home />} />
@@ -50,24 +50,19 @@ function App() {
             <Route path="react-hooks/use-imperative-handler" element={<ImperativeHandle />} />
             <Route path="react-hooks/use-layout-effect" element={<LayoutEffectTutorial />} />
             <Route path="react-hooks/use-callback" element={<CallBackTutorial />} />
-
             {/* React Table */}
             <Route path="react-table" element={<ReactTable />} />
             <Route path="react-table/basic-table" element={<BasicTable />} />
             <Route path="react-table/filtering-table" element={<FilteringTable />} />
             <Route path="react-table/sorting-table" element={<SortingTable />} />
             <Route path="react-table/pagination-table" element={<PaginationTable />} />
-
             {/* Projects */}
             <Route path="projects" element={<Projects />} />
             <Route path="projects/task-tracker" element={<TaskTracker />} />
-            
-            
-            
-            
+            {/* Page Not found */}
             <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
