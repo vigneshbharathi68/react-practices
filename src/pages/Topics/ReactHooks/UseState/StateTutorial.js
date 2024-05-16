@@ -16,7 +16,7 @@ export const StateTutorial = () => {
     }
 
     return (
-        <div>
+        <section>
             <BackBtn />
             <hr />
             <h1>On Click to increment using useState of method in react jsnewValue</h1>
@@ -30,7 +30,7 @@ export const StateTutorial = () => {
             <h1>By get input reactively using useState method in react js</h1>
             <input onChange={ onChange } placeholder="Enter something ...."/>
             <h2>{ inputValue }</h2>
-        </div>
+        </section>
     )
 }
 

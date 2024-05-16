@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 
 // Common Components
@@ -33,8 +33,8 @@ import { TaskTracker } from "pages/Projects/TaskTracker/TaskTracker";
 function App() {
   return (
     <div className="App">
+      <HashRouter>
       <Navigation />
-      <BrowserRouter>
         <Routes>
             {/* Main Navigation routes */}
             <Route path="/" element={<Home />} />
@@ -62,7 +62,7 @@ function App() {
             {/* Page Not found */}
             <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
