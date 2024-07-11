@@ -19,6 +19,12 @@ export const Topics = () => {
       link: "/react-query",
       description: "React Query is a npm module which deals with promises or async/await. There's no global state to manage, reducers, normalization systems or heavy configurations to understand. Simply pass a function that resolves your data (or throws an error) and the rest is history."
     },
+    {
+      title: "React Forms",
+      link: "/react-forms/react-forms-validation",
+      description: "React Forms are the most important part of any application. It's the way to interact with the user. React Forms are used to get the user input and then process it."
+    },
+    
 
   ];
   return (

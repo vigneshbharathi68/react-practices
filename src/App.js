@@ -25,9 +25,12 @@ import { BasicTable } from "pages/Topics/ReactTable/BasicTable";
 import { FilteringTable  } from "pages/Topics/ReactTable/FilteringTable";
 import { PaginationTable  } from "pages/Topics/ReactTable/PaginationTable";
 import { SortingTable } from "pages/Topics/ReactTable/SortingTable";
+// React Forms Components
+import { ReactFormValidation } from "pages/Topics/ReactForms/ReactFormValidation";
 // React Project Components
 import { Projects } from "pages/Projects/Projects";
 import { TaskTracker } from "pages/Projects/TaskTracker/TaskTracker";
+import { QuizChallenge } from "pages/Projects/QuizChallenge/QuizChallenge";
 
 
 function App() {
@@ -56,9 +59,12 @@ function App() {
             <Route path="react-table/filtering-table" element={<FilteringTable />} />
             <Route path="react-table/sorting-table" element={<SortingTable />} />
             <Route path="react-table/pagination-table" element={<PaginationTable />} />
+            {/* React forms */}
+            <Route path="react-forms/react-forms-validation" element={<ReactFormValidation />} />
             {/* Projects */}
             <Route path="projects" element={<Projects />} />
             <Route path="projects/task-tracker" element={<TaskTracker />} />
+            <Route path="projects/quiz-challenge" element={<QuizChallenge />} />
             {/* Page Not found */}
             <Route path="*" element={<PageNotFound />} />
         </Routes>

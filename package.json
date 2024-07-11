@@ -12,6 +12,7 @@
     "date-fns": "^2.29.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.52.1",
     "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.5",
@@ -46,6 +47,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "@hookform/devtools": "^4.3.1",
+    "gh-pages": "^4.0.0",
+    "sass": "^1.77.7"
   }
 }
