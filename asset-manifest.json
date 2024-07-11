@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-practices/static/css/main.c97759d4.css",
-    "main.js": "/react-practices/static/js/main.ceb6736f.js",
+    "main.css": "/react-practices/static/css/main.9b3cd36b.css",
+    "main.js": "/react-practices/static/js/main.68978d3f.js",
     "static/js/453.d357a9df.chunk.js": "/react-practices/static/js/453.d357a9df.chunk.js",
     "static/media/empty-box.png": "/react-practices/static/media/empty-box.19553f799dc6f3bb24b6.png",
     "index.html": "/react-practices/index.html",
-    "main.c97759d4.css.map": "/react-practices/static/css/main.c97759d4.css.map",
-    "main.ceb6736f.js.map": "/react-practices/static/js/main.ceb6736f.js.map",
+    "main.9b3cd36b.css.map": "/react-practices/static/css/main.9b3cd36b.css.map",
+    "main.68978d3f.js.map": "/react-practices/static/js/main.68978d3f.js.map",
     "453.d357a9df.chunk.js.map": "/react-practices/static/js/453.d357a9df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c97759d4.css",
-    "static/js/main.ceb6736f.js"
+    "static/css/main.9b3cd36b.css",
+    "static/js/main.68978d3f.js"
   ]
 }
